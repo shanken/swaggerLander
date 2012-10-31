@@ -50,8 +50,8 @@ $(function() {
 ================================================== */
 
 $(function() {
-	launchTime = new Date(); // Set launch: [year], [month], [day], [hour]...
-		launchTime.setDate(launchTime.getDate() + 13); // Add 13 days
+	launchTime = new Date(2012, 10, 22); // Set launch: [year], [month], [day], [hour]...
+		launchTime.setDate(launchTime.getDate()); // Add 13 days
 	$("#countdown").countdown({until: launchTime, format: "odHMS"});
 });
 

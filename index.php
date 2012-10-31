@@ -17,7 +17,7 @@
 <body>
 
 <!-- Progress bar -->
-<div id="progressbar" data-perc="75">
+<div id="progressbar" data-perc="42">
 	<div class="bar"></div>
 	<div class="label"><span></span></div>
 </div>
@@ -27,18 +27,20 @@
 
 	<!-- Logo text -->
 	<section id="logo">
-		<h1>Daniel Hellier</h1>
+		<h1>Swagger</h1>
 	</section>
 
 	<!-- Description text -->
 	<section id="tagline">
-		<p>Discover the Internet. Soon!</p>
+		<p>Bet Friends. Win Money. </p>
 	</section>
+</br>
+</br>
 
 	<!-- Subscription form -->
 	<form id="subscribe">
 		<input type="text" id="email" name="email" placeholder="Enter your email" />		
-		 <button>Notify me</button>
+		 <button>Get In Early!</button>
 	</form>
 	
 	<!-- Countdown -->	  
@@ -57,10 +59,7 @@
 			<li class="vimeo"><a href="#" title="Watch us on Vimeo">Watch</a></li>
 		</ul>
 	</section>
-	
-	<!-- Copyright message -->
-	<footer id="footer">© <?=date('Y')?> <a href="http://danielhellier.com">Daniel Hellier</a>. Buy this theme at <a href="http://danielhellier.com/soon">Sushipasta - ThemeForest</a>.</footer>
-
+		
 </div>
 
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>

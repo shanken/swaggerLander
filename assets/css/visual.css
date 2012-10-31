@@ -9,14 +9,16 @@ ol,ul{list-style:none}
 /* master styles
 --------------------------------------------- */
 body {
-	background: #bc1c2b url("../img/bg/candy/red.png");
+	background: #bc1c2b url("../img/stadium.jpg");
+	background-position: -150px, -150px;
 	-moz-box-shadow: inset 0 0 250px #000000; -webkit-box-shadow: inset 0 0 250px #000000; box-shadow: inset 0 0 250px #000000;
 	font-family: arial, sans-serif;
 }
 
 	#container {
+		position:relative;
 		width: auto;
-		margin: 0 auto;
+		margin: 0 200;
 		padding-top: 10%;
 	}
 
@@ -127,6 +129,8 @@ body {
 			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12); -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12);
 			transition: background-color 0.2s ease; -webkit-transition: background-color 0.2s ease; -moz-transition: background-color 0.2s ease; -o-transition: background-color 0.2s ease;
 			width:400px;
+			background:#fff;
+
 		}
 		
 		#subscribe input:focus {
