@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<title>Customizable Coming Soon Page</title>
+	<title>Swagger</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700' rel='stylesheet' type='text/css'>
 	<link type="text/css" rel="stylesheet" href="assets/css/visual.css" media="screen" />
@@ -17,7 +17,7 @@
 <body>
 
 <!-- Progress bar -->
-<div id="progressbar" data-perc="42">
+<div id="progressbar" data-perc="57">
 	<div class="bar"></div>
 	<div class="label"><span></span></div>
 </div>
